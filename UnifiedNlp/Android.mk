@@ -15,7 +15,7 @@ LOCAL_SRC_FILES := unifiednlp-app-UnifiedNlp-release-unsigned.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := testkey
 LOCAL_REQUIRED_MODULES := privapp-permissions-org.microg.nlp.xml
 include $(BUILD_PREBUILT)
 
